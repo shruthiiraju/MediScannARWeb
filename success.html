@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+
+    <title>MediScannAR</title>
+
+
+
+    <!-- Bootstrap core CSS -->
+<link href="./homepage_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <style>
+
+    #container {
+      width: 50%;
+
+    }
+
+
+    #loading {
+
+    /*border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    height: 20vh;
+    width: 20vh;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;*/
+  }
+
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="./homepage_files/cover.css" rel="stylesheet">
+  </head>
+  <body class="text-center" style="background-image: url('homepage_files/giphy.gif'); background-size: cover">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="masthead mb-auto">
+    <div class="inner">
+      <h3 class="masthead-brand">MediScannAR</h3>
+      <nav class="nav nav-masthead justify-content-center">
+        <a class="nav-link active" href="/#">Home</a>
+      </nav>
+    </div>
+  </header>
+
+  <main role="main" class="inner cover">
+    <h3 class="cover-heading">Success! {{ stlname }}</h3>
+    <p class="lead">Scan the QR Code with the MediScannAR app</p>
+    <img src=" {{ qrcode }}">
+  </main>
+
+  <footer class="mastfoot mt-auto">
+    <div class="inner">
+      <p>Created by Shruthi Raju and Ritu Sinha</p>
+    </div>
+  </footer>
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+</body></html>
